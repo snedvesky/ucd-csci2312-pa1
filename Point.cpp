@@ -62,7 +62,7 @@ double Point::distanceTo(const Point &other) const
     totalDistance = sqrt(pow(distx, 2) + pow(disty, 2) + pow(distz, 2));
     
     
-    return total;
+    return totalDistance;
     
     
 }
