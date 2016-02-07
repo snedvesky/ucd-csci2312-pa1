@@ -57,9 +57,9 @@ double Point::distanceTo(const Point &other) const
     double distx = other.getX() -x;
     double disty = other.getY() -y;
     double distz = other.getZ() -z;
-    double total;
+    double totalDistance;
     
-    total = sqrt(pow(distx, 2) + pow(disty, 2) + pow(distz, 2));
+    totalDistance = sqrt(pow(distx, 2) + pow(disty, 2) + pow(distz, 2));
     
     
     return total;
